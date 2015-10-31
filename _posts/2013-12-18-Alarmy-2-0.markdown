@@ -1,0 +1,108 @@
+---
+layout: 	post
+title:  	"Alarmy 2.0"
+date:   	2013-12-18 20:04:00
+categories: Develop
+tags:		["Alarmy", "App Store", "Apple", "DelightRoom", "Design", "Develop", "iOS", "Sleep If U Can", "일기"]
+---
+
+<span class="imgslider" data-slick='{"infinite":true, "slidesToShow":2, "slidesToScroll":2}'>
+![]({{ site.baseurl }}/images/post/2013-12-18-Alarmy-2-0-01.png)
+![]({{ site.baseurl }}/images/post/2013-12-18-Alarmy-2-0-02.png)
+![]({{ site.baseurl }}/images/post/2013-12-18-Alarmy-2-0-03.png)
+![]({{ site.baseurl }}/images/post/2013-12-18-Alarmy-2-0-04.png)
+![]({{ site.baseurl }}/images/post/2013-12-18-Alarmy-2-0-05.png)
+</span>
+
+<center>
+
+-
+
+**Alarmy 2.0**&nbsp;&nbsp;|&nbsp;&nbsp;2013.12.18 - AM05:13
+
+[<img src="{{ site.baseurl }}/images/appstore-icon.png" style="width:154px;height:50px;margin:auto" />](https://itunes.apple.com/kr/app/alarmy-sleep-if-u-can/id609598558)
+
+-
+
+오늘 새벽 드디어 DelightRoom에 들어와서<br />
+새롭게 디자인하고 개발했던 서비스인<br />
+Alarmy를 런칭했다.<br />
+
+8월쯤부터 서비스의 방향성을 고민하고,<br />
+트렌드에 맞추어 새롭게 디자인하고,<br />
+만들었다가 완전히 갈아엎기도 하면서,<br />
+정말 많은 고민을 거쳐서 만든 서비스이다.<br />
+
+-
+
+처음 앱이름은 Sleep If U Can으로<br />
+나는 iOS 개발쪽으로 처음 들어왔다.<br />
+사실 그래서 디자인을 이렇게 주분야로써<br />
+작업하게 될 줄은 생각도 못했었다.<br />
+
+직원이 나를 포함해서 총 2명이었기에<br />
+홈페이지부터 명함 등 디자인과 관련된 모든 부분을<br />
+내가 직접 담당할 수 밖에 없었다.<br />
+
+[2013/08/25 - [디자인작품] - DelightRoom Logo]({{ site.baseurl }}/design/2013/08/25/delightroom-logo/)<br />
+[2013/09/10 - [디자인작품] - DelightRoom Website]({{ site.baseurl }}/design/2013/09/10/delightroom-website/)<br />
+[2013/09/12 - [디자인작품] - Sleep If U Can Website]({{ site.baseurl }}/design/2013/09/12/sleep-if-u-can-website/)<br />
+[2013/10/04 - [디자인작품] - DelightRoom Business Card]({{ site.baseurl }}/design/2013/10/05/delightroom-business-card/)<br />
+
+하지만 일이라는게<br />
+내가 하고 싶은 부분만 할 수는 없기에<br />
+프로 의식을 가지고 집중해서 작업했다.<br />
+
+-
+
+사실 디자인을 하다보면<br />
+개발자가 할 수 있는 부분과 못하는 부분을<br />
+고려하지 않게되고, 미적인 요소를 쫒다보니<br />
+사용성을 깨는 경우도 발생한다.<br />
+
+그래서 그런지 내가 디자인한 것을<br />
+스스로 만드는 과정에서도 상당히 힘들었었고,<br />
+스스로 너무 부끄러워 몇번이고<br />
+새롭게 디자인을 한 적도 있었다.<br />
+
+-
+
+실제로 개발을 했다가 새롭게 갈아엎은 적도 있었다.<br />
+그래서 10월 중순 쯤이었는데,<br />
+
+[2013/09/16 - [디자인작품] - Sleep If U Can Flat Design]({{ site.baseurl }}/design/2013/09/16/sleep-if-u-can-flat-design/)<br />
+
+처음에는 이 디자인으로 아이폰을 개발했었었다.<br />
+그런데 사실 사용성은 좋을지 모르겠지만<br />
+디자인이 좋은 다양한 iOS 앱들과의 경쟁에서<br />
+밀릴 것 같다는 생각이 들었다.<br />
+(물론 내 맘에 안든 것도 있지만)<br />
+
+지금까지 만들었던 코드를 버리고<br />
+새롭게 디자인부터 시작했었다.<br />
+지금까지 없던 방식으로 앱을 디자인하기란 정말 어려웠고,<br />
+
+하나의 방식에 대해서 사용자가 생각할 수 있는<br />
+경우의 수를 모두 대입해보면서<br />
+고민하며 방식을 추가해나갔다.<br />
+
+-
+
+그렇게 고민을 했음에도 불구하고<br />
+불편하다고 느끼는 사용자들이 있었다.<br />
+완전히 다른 부분에서 접근하는 경우도 있었고,<br />
+같은 부분에 대해서도 이렇게 생각할 수 있구나 하는 등 말이다.<br />
+
+그렇지만 이런 경험은 정말<br />
+많은 것을 배울 수 있도록 해주었다.<br />
+
+-
+
+시간이 지나 벌써 런칭을 하고나니<br />
+힘든 시기가 지나면 모두 추억이 된다는 말이 깊이 와닫는다.<br />
+
+사실 앞으로도 해야할 일도 도전해야할 것도 많지만<br />
+Loose해지지 않고 지금의 기분으로 꾸준히 노력하고 싶다.<br />
+<br />
+
+</center>

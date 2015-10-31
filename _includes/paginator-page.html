@@ -1,0 +1,18 @@
+{% assign start_index = paginator.page | divided_by:10 | times:10 %}
+
+{% for count in (0..9) %}
+    {% assign p_index = start_index | plus:count %}
+    {% if p_index > 0 and p_index <= paginator.total_pages %}
+        {% if p_index == paginator.page %}
+            <li class="active">{{ p_index }}</li>
+        {% else %}
+            <li>
+            {% if p_index == 1 %}
+                <a href="/">{{ p_index }}</a>
+            {% else %}
+                <a href="/page/{{ p_index }}">{{ p_index }}</a>
+            {% endif %}
+            </li>
+        {% endif %}
+    {% endif %}
+{% endfor %}

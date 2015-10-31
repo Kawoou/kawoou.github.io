@@ -1,0 +1,14 @@
+{% assign start_index = paginator.page | divided_by:10 | times:10 %}
+
+{% if paginator.next_page %}
+    <li>
+    {% assign next_page = start_index | plus:10 %}
+    {% if next_page > paginator.total_pages %}
+        <a href="/page/{{ paginator.total_pages }}">Next &rarr;</a>
+    {% else %}
+        <a href="/page/{{ next_page }}">Next &rarr;</a>
+    {% endif %}
+    </li>
+{% else %}
+    <li class="disable">Next &rarr;</li>
+{% endif %}

@@ -1,0 +1,18 @@
+{% assign start_index = paginator.page | divided_by:10 | plus:1 | times:10 %}
+
+{% if paginator.previous_page %}
+    <li>
+    {% assign prev_page = start_index | minus:11 %}
+    {% if prev_page > 0 %}
+        {% if prev_page == 1 %}
+            <a href="/">&larr; Prev</a>
+        {% else %}
+            <a href="/page/{{ prev_page }}">&larr; Prev</a>
+        {% endif %}
+    {% else %}
+            <a href="/">&larr; Prev</a>
+    {% endif %}
+    </li>
+{% else %}
+    <li class="disable">&larr; Prev</li>
+{% endif %}

@@ -1,0 +1,30 @@
+---
+layout: 	post
+title:  	"Prism"
+date:   	2013-07-15 00:20:00
+categories: Design
+tags:		["Design", "Logo", "PoApper", "Prism", "외주"]
+---
+
+![]({{ site.baseurl }}/images/post/2013-07-14-Prism-01.png)
+
+<center>
+
+-
+
+**Prism**&nbsp;&nbsp;|&nbsp;&nbsp;2013.07.14 - PM08:01
+
+
+-
+
+로고 디자인 외주를 위해 만들었으나<br />
+다른 디자인을 원하셔서 개인작품으로 남았다.<br />
+
+-
+
+빛이 프리즘을 통해 무지개 색으로 빛나는 것처럼<br />
+(PoApper의)멤버가 세상에 나와 다양한 색의 영향을<br />
+퍼트린다는 의미를 담고 있습니다.<br />
+<br />
+
+</center>

@@ -1,0 +1,54 @@
+---
+layout:     post
+title:      "한학기"
+date:       2014-05-30 21:03:00
+categories: Design
+tags:       ["Design", "HANGANG", "Logo", "한강", "한학기"]
+---
+
+<img src="{{ site.baseurl }}/images/post/2014-05-30-ONE-TERM-01.png" style="width:400px;height:342px;margin:auto" />
+
+<center>
+
+-
+
+**한학기**&nbsp;&nbsp;|&nbsp;&nbsp;2014.05.29 - PM07:46
+
+-
+
+친구가 한양대학교 족보공유? 교수평가?<br />
+그런 비슷한 사이트를 만드는데<br />
+로고 디자인이 필요하다고 하길래<br />
+시간도 좀 남고해서 작업하게되었다<br />
+
+첨에는 이름이 한학기가 아니라<br />
+예전처럼 '한강'이라는 이름을<br />
+그대로 사용할 것이라고 생각해서<br />
+디자인을 했었다<br />
+
+<img src="{{ site.baseurl }}/images/post/2014-05-30-ONE-TERM-02.png" style="width:400px;height:342px;margin:auto" />
+
+-
+
+근데 이름이 한학기로 바뀌었다길래<br />
+ㅋ...<br />
+
+다시 디자인했는데<br />
+한국어 제목이다보니 딱 디자인이 떠오르지 않아서<br />
+걍 윤고딕으로 '한학기' 적으면 안되냐고 그랬는데<br />
+그건 좀 그렇다길래<br />
+
+좀 고민 좀 하다<br />
+다하 디자이너님처럼<br />
+해보자하는 마음으로 디자인했다<br />
+
+-
+
+근데 역시나<br />
+한글 아트를 해본적이 없어서 그런가<br />
+좀 디자인이 구리다<br />
+많이 구리다<br />
+~~똥이다 똥~~<br />
+<br />
+
+</center>
