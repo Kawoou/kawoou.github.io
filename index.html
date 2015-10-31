@@ -2,22 +2,42 @@
 layout: default
 ---
 
-<div class="home">
+{% for post in paginator.posts %}
+    {% if forloop.index == 1 %}
+<section id="one">
+    {% else %}
+<section>
+    {% endif %}
 
-  <h1 class="page-heading">Posts</h1>
+    <div class="container">
+        <article>
+            <header>
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            </header>
+            <section class="post-content">
+                {{ post.content }}
+            </section>
+            <section class="special">
+                <ul class="actions">
+                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button special">Read More</a></li>
+                </ul>
+            </section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <article>
+                
+            </article>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+            {% if paginator.per_page == forloop.index or paginator.total_posts == forloop.index %}
+            <footer>
+                <ul>
+                    {% include paginator-prev.html %}
+                    {% include paginator-page.html %}
+                    {% include paginator-next.html %}
+                </ul>
+                <br>
+            </footer>
+            {% endif %}
+        </article>
+    </div>
+</section>
+{% endfor %}

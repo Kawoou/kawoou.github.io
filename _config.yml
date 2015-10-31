@@ -1,36 +1,44 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
+# Base Settings
+## Site Setting
 title: KAWOOU BOX
 email: kawoou@kawoou.kr
-#description: > # this means to ignore newlines until "baseurl:"
-#  Write an awesome description for your new site here. You can edit this
-#  line in _config.yml. It will appear in your document head meta (for
-#  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+username: "Kawoou"
+description: "I got reprogrammed by a rogue AI<br />and now I'm totally cray"
+
+baseurl: ""
+# url: "http://yourdomain.com"
+
+## Social Setting
 #twitter_username: jekyllrb
-github_username:  kawoou
 facebook_username: kawoou
+instagram_username: kawoou
+github_username:  kawoou
+
+
+# Dependency
+gems:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jemoji
+
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-        extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables"]
+## Paginator
+paginate: 5
+paginate_path: "/page/:num/"
 
+## Markdown
+markdown: redcarpet
+
+## Redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables"]
+
+## Highlight
 highlighter: pygments
 
 permalink: pretty
 
-safe: true
+#safe: true
 lsi: true
-
-gems:
-        - jekyll-redirect-from
-        - jemoji
-

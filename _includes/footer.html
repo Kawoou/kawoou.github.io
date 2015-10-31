@@ -1,38 +1,108 @@
-<footer class="site-footer">
+<!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            <ul class="copyright">
+                <li>&copy; Untitled. All rights reserved.</li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                <li>Demo Images: <a href="https://unsplash.com/">Unsplash</a></li>
+                <li>Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
+            </ul>
+        </div>
+    </section>
 
-  <div class="wrapper">
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.post-content span.imgslider').each(function(e) {
+            var type = $(this).attr("data-type") ? $(this).attr("data-type") : 'default';
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+            $(this).html($(this).html().replace(/<([^>]+)>/gm, '<div><$1></div>'))
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+            switch (type) {
+                case 'default':
+                    $(this).slick();
+                    break;
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+                case 'multiple-items':
+                    $(this).slick({
+                        infinite: true,
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    });
+                    break;
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
+                case 'responsive-display':
+                    $(this).slick({
+                        dots: true,
+                        infinite: false,
+                        speed: 300,
+                        slidesToShow: 4,
+                        slidesToScroll: 4,
+                        responsive: [
+                            {
+                                breakpoint: 1024,
+                                settings: {
+                                    slidesToShow: 3,
+                                    slidesToScroll: 3,
+                                    infinite: true,
+                                    dots: true
+                                }
+                            },
+                            {
+                                breakpoint: 600,
+                                settings: {
+                                    slidesToShow: 2,
+                                    slidesToScroll: 2
+                                }
+                            },
+                            {
+                                breakpoint: 480,
+                                settings: {
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1
+                                }
+                            }
+                        ]
+                    })
+                    break;
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
+                case 'center-mode':
+                    $(this).slick({
+                        centerMode: true,
+                        centerPadding: '60px',
+                        slidesToShow: 3,
+                        responsive: [
+                            {
+                                breakpoint: 768,
+                                settings: {
+                                    arrows: false,
+                                    centerMode: true,
+                                    centerPadding: '40px',
+                                    slidesToShow: 3
+                                }
+                            },
+                            {
+                                breakpoint: 480,
+                                settings: {
+                                    arrows: false,
+                                    centerMode: true,
+                                    centerPadding: '40px',
+                                    slidesToShow: 1
+                                }
+                            }
+                        ]
+                    });
+                    break;
 
-  </div>
-
-</footer>
+                case 'fade':
+                    $(this).slick({
+                        dots: true,
+                        infinite: true,
+                        speed: 500,
+                        fade: true,
+                        cssEase: 'linear'
+                    });
+                    break;
+            }
+        });
+    });
+    </script>
