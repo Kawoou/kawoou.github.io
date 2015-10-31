@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "디발자가 말하는 시선을 끄는 PPT"
+author:     "Kawoou"
 date:       2014-04-03 02:34:00
 categories: Daily
 tags:       ["디발자", "PPT", "프레젠테이션", "디자인", "OMS", "발표"]

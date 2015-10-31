@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "Swift Korea - Cover"
+author:     "Kawoou"
 date:       2014-06-11 03:07:00
 categories: Design
 tags:       ["Cover", "Design", "Facebook", "Swift", "개발자", "스위프트"]

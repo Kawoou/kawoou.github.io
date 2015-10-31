@@ -1,6 +1,7 @@
 ---
 layout: 	post
 title:  	"Ladybug"
+author:     "Kawoou"
 date:   	2013-10-01 00:44:00
 categories: Design
 tags:		["Design", "Programming", "Software Maestro", "외주", "일기"]

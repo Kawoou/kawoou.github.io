@@ -1,6 +1,7 @@
 ---
 layout: 	post
 title:  	"Alarmy 2.0"
+author:     "Kawoou"
 date:   	2013-12-18 20:04:00
 categories: Develop
 tags:		["Alarmy", "App Store", "Apple", "DelightRoom", "Design", "Develop", "iOS", "Sleep If U Can", "일기"]

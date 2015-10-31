@@ -1,6 +1,7 @@
 ---
 layout: 	post
 title:  	"DelightRoom Business Card"
+author:     "Kawoou"
 date:   	2013-10-04 22:49:00
 categories: Design
 tags:		["Business Card", "Creativity", "Delight", "DelightRoom", "Design", "Sensation"]
@@ -32,7 +33,7 @@ Creativity, Delight, Sensation를 포함한 여러 의미를 담고있다.<br />
 <br />
 
 <span class="imgtwo">
-![]({{ site.baseurl }}/images/post/2013-10-04-DelightRoom-Business-Card-02.png)
+![]({{ site.baseurl }}/images/post/2013-10-04-DelightRoom-Business-Card-02.jpg)
 ![]({{ site.baseurl }}/images/post/2013-10-04-DelightRoom-Business-Card-03.png)
 </span>
 

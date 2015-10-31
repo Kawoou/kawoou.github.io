@@ -1,6 +1,7 @@
 ---
 layout: 	post
 title:  	"Alarmy Advertise"
+author:     "Kawoou"
 date:   	2013-12-18 19:01:00
 categories: Design
 tags:		["Advertise", "Alarmy", "DelightRoom", "Marketing", "Promotion", "Sleep If U Can"]

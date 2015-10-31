@@ -1,6 +1,7 @@
 ---
 layout: 	post
 title:  	"Alarmy Icon"
+author:     "Kawoou"
 date:   	2013-12-18 16:53:00
 categories: Design
 tags:		["Alarmy", "Design", "Flat", "Icon", "Sleep If U Can"]

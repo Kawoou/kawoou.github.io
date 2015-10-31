@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "iOS에서 아이콘 폰트 로드하기"
+author:     "Kawoou"
 date:       2013-12-18 20:04:00
 categories: Develop
 tags:       ["CoreText", "iOS", "Programming", "아이콘폰트", "폰트"]

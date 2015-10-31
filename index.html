@@ -12,7 +12,10 @@ layout: default
     <div class="container">
         <article>
             <header>
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+                <p class="post-meta">
+                    {{ post.date | date: "%B %-d, %Y • %p %H:%M" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}
+                </p>
             </header>
             <section class="post-content">
                 {{ post.content }}

@@ -1,6 +1,7 @@
 ---
 layout: 	post
 title:  	"DelightRoom Logo"
+author:     "Kawoou"
 date:   	2013-08-25 05:30:00
 categories: Design
 tags:		["DelightRoom", "Design", "Logo"]

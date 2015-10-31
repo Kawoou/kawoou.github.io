@@ -1,6 +1,7 @@
 ---
 layout: 	post
 title:  	"DynamicWAVE"
+author:     "Kawoou"
 date:   	2013-08-14 11:34:00
 categories: Design
 tags:		["Design", "DynamicWAVE", "Game", "리듬게임", "고등학생"]

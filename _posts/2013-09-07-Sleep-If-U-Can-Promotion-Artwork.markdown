@@ -1,6 +1,7 @@
 ---
 layout: 	post
 title:  	"Sleep If U Can Promotion Artwork"
+author:     "Kawoou"
 date:   	2013-09-07 17:58:00
 categories: Design
 tags:		["DelightRoom", "Design", "Artwork"]

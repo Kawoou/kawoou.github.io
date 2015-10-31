@@ -1,6 +1,7 @@
 ---
 layout: 	post
 title:  	"DelightRoom Website"
+author:     "Kawoou"
 date:   	2013-09-10 08:21:00
 categories: Design
 tags:		["DelightRoom", "Design", "Programming"]

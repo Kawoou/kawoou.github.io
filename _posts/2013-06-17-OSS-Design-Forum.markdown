@@ -1,6 +1,7 @@
 ---
 layout: 	post
 title:  	"OSS개발자포럼"
+author:     "Kawoou"
 date:   	2013-06-17 00:19:00
 categories: Design
 tags:		["Design", "Earth", "Logo", "OSS", "개발자포럼", "일기"]

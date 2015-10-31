@@ -1158,3 +1158,9 @@
 				#footer .copyright li a {
 					color: inherit;
 				}
+
+
+header h3 + p.post-meta {
+	font-size: 1.05em;
+	margin-top: -0.8em;
+}

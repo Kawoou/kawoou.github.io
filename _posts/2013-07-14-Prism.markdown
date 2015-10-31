@@ -1,6 +1,7 @@
 ---
 layout: 	post
 title:  	"Prism"
+author:     "Kawoou"
 date:   	2013-07-15 00:20:00
 categories: Design
 tags:		["Design", "Logo", "PoApper", "Prism", "외주"]

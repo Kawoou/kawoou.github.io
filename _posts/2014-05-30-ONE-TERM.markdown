@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "한학기"
+author:     "Kawoou"
 date:       2014-05-30 21:03:00
 categories: Design
 tags:       ["Design", "HANGANG", "Logo", "한강", "한학기"]

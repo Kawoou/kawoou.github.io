@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "iOS 앱이 디버거 위에서 실행되는지 확인하기"
+author:     "Kawoou"
 date:       2014-08-11 00:52:00
 categories: Develop
 tags:       ["Develop", "Debugger", "iOS", "Objc"]
